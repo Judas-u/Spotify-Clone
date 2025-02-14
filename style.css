@@ -1,3 +1,16 @@
-body {
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'calibri', 'sans-serif';
+    color: #333333;
+}
+
+.spotify {
     background-color: black;
+    display: grid;
+    height: 100vh;
+    grid-gap: 0.4;
+    padding: 0.5;
+    overflow: hidden;
 }
